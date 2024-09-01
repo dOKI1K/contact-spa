@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
 const siteColors = {
-    'primary': '#0d6efd',
-    'secondary': '#6c757d',
+    'primary': '#7c63ff',
+    'secondary': '#FFFFFF',
     'success': '#198754',
     'danger': '#dc3545',
     'warning': '#ffc107',
