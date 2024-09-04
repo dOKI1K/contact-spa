@@ -65,7 +65,7 @@
 
     <div id="nav-links"
         class="absolute hidden flex-col w-full p-10 text-center bg-white shadow-lg border-t border-primary
-        top-[76px] md:hidden font-poppins shadow-gray-200 h-[60vh] gap-y-7">
+        top-[116px] md:hidden font-poppins shadow-gray-200 h-[60vh] gap-y-7">
         <a href="#about-us" id="#nav-toggle"
             class="text-xl font-semibold transition-all ease-in-out hover:text-primary">{{ __('Quienes somos') }}</a>
         <a href="#bariatric-surgery-program" id="#nav-toggle"
