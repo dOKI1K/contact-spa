@@ -1,21 +1,23 @@
 <header class="fixed z-50 w-full pt-5 bg-white md:sticky -top-5 animate__animated animate__fadeInDown">
     <div
-        class="relative z-50 flex flex-row items-center justify-between w-full px-5 pt-3 pb-3 mx-auto text-xl text-center bg-white shadow-lg md:flex-col lg:container md:pb-7 shadow-gray-300 font-poppins">
+        class="relative z-50 flex flex-row items-center justify-between w-full px-5 pt-3 pb-3 mx-auto text-xl text-center bg-white shadow-lg md:flex-col lg:container shadow-gray-300 font-poppins">
         <div class="lg:w-full">
-            <a class="text-3xl font-bold text-gray-800" href="{{ route('welcome') }}">VIDASUG</a>
-            <div class="absolute top-4 right-5">
-                <div class="flex flex-row items-center gap-x-2">
-                    @foreach (Config::get('languages') as $lang => $language)
-                        @if ($lang != App::getLocale())
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-6">
+            <a class="text-3xl font-bold text-gray-800" href="{{ route('welcome') }}">
+                <img src="/img/logo.png" title="VIDASUG" alt="VIDASUG" class="w-[160px] mx-auto">
+            </a>
+            <div class="absolute hidden top-4 right-5 md:block">
+                @foreach (Config::get('languages') as $lang => $language)
+                    @if ($lang != App::getLocale())
+                        <a href="{{ route('locale.set', $lang) }}" class="flex flex-row items-center text-sm gap-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-6 text-primary">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
                             </svg>
-                            <a class="text-sm" href="{{ route('lang.switch', $lang) }}"> {{ $language }}</a>
-                        @endif
-                    @endforeach
-                </div>
+                            <p class="font-semibold font-poppins">{{ $language }}</p>
+                        </a>
+                    @endif
+                @endforeach
             </div>
         </div>
         <div class="items-center justify-center hidden mt-4 md:flex">
@@ -37,7 +39,22 @@
                     class="transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Contactanos') }}</a>
             </nav>
         </div>
-        <div class="block md:hidden">
+
+        <div class="flex flex-row items-center md:hidden gap-x-2">
+            <div>
+                @foreach (Config::get('languages') as $lang => $language)
+                    @if ($lang != App::getLocale())
+                        <a href="{{ route('locale.set', $lang) }}" class="flex flex-row items-center text-sm gap-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-6 text-primary">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
+                            </svg>
+                        </a>
+                    @endif
+                @endforeach
+            </div>
+
             <button class="nav-toggle">
                 <span class="bar"></span>
                 <span class="bar2"></span>

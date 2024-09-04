@@ -11,3 +11,5 @@ Route::get('/', function () {
 
 Route::get('lang/{lang}', [LanguageController::class, 'switchLang'])->name('lang.switch');
 
+Route::get('locale/{lang}', [LanguageController::class, 'setLocale'])->name('locale.set');
+
