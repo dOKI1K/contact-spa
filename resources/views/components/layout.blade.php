@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="{{ __('Section1a') }}">
+    <meta name="keywords"
+        content="bariatric, cirugia, surgery, bypass, vidasug, gastrico, eeuu, usa, quirurgica, nutricion, salud, argentina, operacion, suplementos, bienestar, estomago, bariatrica, obesidad, obesity">
+
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="icon" href="{{ env('APP_URL') . '/favicon.ico' }}" type="image/x-icon">
+    <meta property="og:image" itemprop="image" content="@yield('icon', 'https://vidasug.com/favicon.ico')" />
+
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
 
