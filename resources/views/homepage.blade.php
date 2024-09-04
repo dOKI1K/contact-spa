@@ -300,7 +300,7 @@
                         </div>
                         <ul class="ml-6 list-disc">
                             <li>
-                                <a class="hover:text-primary" href="tel:5491118122022">+54 9 11 18122022</a>
+                                <a class="hover:text-primary" href="tel:+5492235792916">+54 9 2235792916</a>
                             </li>
                         </ul>
                     </div>
