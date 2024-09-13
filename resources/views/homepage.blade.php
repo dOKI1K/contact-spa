@@ -11,11 +11,13 @@
                 <p>
                     {{ __('Section1a') }} <br><br>
                     {{ __('Section1b') }} <br><br>
-                    {{ __('Section1c') }}
+                    {{ __('Section1c') }} <br><br>
+                    {{ __('Section1d') }} <br><br>
+                    {{ __('Section1e') }}
                 </p>
             </div>
 
-            <div class="w-full py-5 lg:py-0">
+            <div class="w-full py-5 ml-4 lg:py-0 md:">
                 <img src="/img/quienes-somos.jpg" alt="VIDASUG" title="VIDASUG">
             </div>
         </div>
@@ -60,6 +62,86 @@
             </div>
             <div class="w-full">
                 <img src="/img/mini-bypass.png" alt="VIDASUG" title="VIDASUG">
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="container mx-auto mt-10 bg-white border rounded-md shadow-lg border-primary shadow-gray-200 animate__animated animate__zoomInUp">
+        <div id="bariatric-surgery-program" class="-translate-y-28"></div>
+        <div class="flex flex-col items-center p-10 bg-white rounded-md lg:flex-row">
+            <div>
+                <h1 class="mb-2 text-2xl font-bold text-primary font-poppins">
+                    {{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}
+                </h1>
+                <p class="pr-0 lg:pr-5">
+                    {{ __('Section7a') }} <br><br>
+                    {{ __('Section7b') }} <br><br>
+                    {{ __('Section7c') }} <br><br>
+                    {{ __('Section7d') }} <br><br>
+                    {{ __('Section7e') }}
+                </p>
+            </div>
+            <div class="w-full">
+                <img src="/img/telecomunicacion.jpg"
+                    alt="{{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}"
+                    title="{{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}"
+                    class="mx-auto w-[500px]">
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
+        <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
+            <div class="lg:w-[500px] w-full mt-8 md:mr-10">
+                <img src="/img/educacion.webp" alt="Vidasug" title="Vidasug" class="w-full mx-auto">
+            </div>
+            <div class="w-full">
+                <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
+                    {{ __('Educación en VIDASUG: Formación Continua y Especializada para Profesionales de la Salud') }}
+                </h1>
+                <p>{{ __('Section8a') }}</p>
+
+                <div class="grid grid-cols-1 gap-4 mt-5 md:grid-cols-2 lg:grid-cols-3">
+                    <div
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot1Title') }}</h3>
+                        <p>{{ __('Section8dot1') }}</p>
+                    </div>
+                    <div
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot2Title') }}</h3>
+                        <p>{{ __('Section8dot2') }}</p>
+                    </div>
+                    <div
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot3Title') }}</h3>
+                        <p>{{ __('Section8dot3') }}</p>
+                    </div>
+                    <div
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot4Title') }}</h3>
+                        <p>{{ __('Section8dot4') }}</p>
+                    </div>
+                    <div
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot5Title') }}</h3>
+                        <p>{{ __('Section8dot5') }}</p>
+                    </div>
+                    <div
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot6Title') }}</h3>
+                        <p>{{ __('Section8dot6') }}</p>
+                    </div>
+                </div>
+
+                <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8bTitle') }}</h2>
+                <p>{{ __('Section8b') }}</p>
+
+                <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8cTitle') }}</h2>
+                <p>{{ __('Section8c') }}</p> <br>
+                <p>{{ __('Section8d') }}</p>
             </div>
         </div>
     </section>
