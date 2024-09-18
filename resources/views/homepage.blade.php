@@ -308,6 +308,109 @@
         </div>
     </section>
 
+    <section id="sponsor" class="container mx-auto mt-10 rounded-lg splide">
+        <div class="rounded-lg splide__track">
+            <ul class="grid grid-cols-2 rounded-lg splide__list lg:grid-cols-6">
+                <li class="items-center px-2 splide__slide h-fit">
+                    <a href="https://www.mountsinai.org/" target="_blank"
+                        class="z-30 m-2 transition-all hover:-translate-y-1">
+                        <div
+                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
+                            <img src="/img/sponsor/mountsinai.png" alt="Mount Sinai" class="h-[100px] w-fit mx-auto">
+                            <div class="p-2">
+                                <h2 class="font-semibold text-gray-500 text-md">Mount Sinai</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="items-center px-2 splide__slide h-fit">
+                    <a href="https://www.mhs.net/" target="_blank"
+                        class="z-30 m-2 transition-all hover:-translate-y-1">
+                        <div
+                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
+                            <img src="/img/sponsor/memorialhospital.svg" alt="Memorial Hospital"
+                                class="h-[100px] w-fit mx-auto">
+                            <div class="p-2">
+                                <h2 class="font-semibold text-gray-500 text-md">Memorial Hospital</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="items-center px-2 splide__slide h-fit">
+                    <a href="https://jeffersonhealthcare.org/" target="_blank"
+                        class="z-30 m-2 transition-all hover:-translate-y-1">
+                        <div
+                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
+                            <img src="/img/sponsor/jeffersonhealthcare.png" alt="Jefferson Healthcare"
+                                class="h-[100px] w-fit mx-auto">
+                            <div class="p-2">
+                                <h2 class="font-semibold text-gray-500 text-md">Jefferson Healthcare</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="items-center px-2 splide__slide h-fit">
+                    <a href="https://www.phs.org/" target="_blank"
+                        class="z-30 m-2 transition-all hover:-translate-y-1">
+                        <div
+                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
+                            <img src="/img/sponsor/presbyterian.svg" alt="Presbyterian"
+                                class="h-[100px] w-fit mx-auto">
+                            <div class="p-2">
+                                <h2 class="font-semibold text-gray-500 text-md">Presbyterian</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="items-center px-2 splide__slide h-fit">
+                    <a href="https://www.hopkinsmedicine.org/" target="_blank"
+                        class="z-30 m-2 transition-all hover:-translate-y-1">
+                        <div
+                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
+                            <img src="/img/sponsor/hopkins-medicine.svg" alt="John Hopkins"
+                                class="h-[100px] w-fit mx-auto">
+                            <div class="p-2">
+                                <h2 class="font-semibold text-gray-500 text-md">John Hopkins</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="items-center px-2 splide__slide h-fit">
+                    <a href="https://www.uclahealth.org/" target="_blank"
+                        class="z-30 m-2 transition-all hover:-translate-y-1">
+                        <div
+                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
+                            <img src="/img/sponsor/ucla-health.svg" alt="UCLA Medical Center"
+                                class="h-[100px] w-fit mx-auto">
+                            <div class="p-2">
+                                <h2 class="font-semibold text-gray-500 text-md">UCLA Medical Center</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="items-center px-2 splide__slide h-fit">
+                    <a href="https://www.clinicasierravista.org/" target="_blank"
+                        class="z-30 m-2 transition-all hover:-translate-y-1">
+                        <div
+                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
+                            <img src="/img/sponsor/sierravista.png" alt="Clinica Sierra Vista"
+                                class="h-[100px] w-fit mx-auto">
+                            <div class="p-2">
+                                <h2 class="font-semibold text-gray-500 text-md">Clinica Sierra Vista</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <section
         class="container mx-auto mt-10 text-white border rounded-md shadow-lg bg-slate-700 border-primary wow animate__animated animate__fadeInLefts">
         <div id="contact-us" class="-translate-y-28"></div>
