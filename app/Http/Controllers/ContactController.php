@@ -17,6 +17,18 @@ class ContactController extends Controller
             'message' => 'required|max:2000',
         ]);
 
+        if (strpos($contact_info['message'], 'http') !== false) {
+            return redirect()->back()->with('error', 'No se permiten links en el mensaje');
+        }
+
+        if (!preg_match('/[A-Za-z0-9ñÑáéíóúÁÉÍÓÚ\s\.\,\-\(\)\?\¿\!\¡\:\;\"\'\%\$\#\&\*\+\=\/\@\[\]\{\}\^\~\`\´\º\ª\|\<\>]/', $contact_info['message'])) {
+            return redirect()->back()->with('error', 'No se permiten caracteres especiales en el mensaje');
+        }
+
+        if (preg_match('/[А-Яа-яЁё]/u', $contact_info['message'])) {
+            return redirect()->back()->with('error', 'No se permiten caracteres cirílicos en el mensaje');
+        }
+
         $emails = User::where('role', 'admin')->pluck('email')->toArray();
 
         foreach ($emails as $email) {
