@@ -15,7 +15,7 @@
     <title>Contact</title>
 </head>
 
-<body class="scroll-smooth bg-gradient-to-tr from-primary to-secondary">
+<body class="scroll-smooth bg-gradient-to-r from-primary to-secondary">
     <x-header></x-header>
     <main>
         {{ $slot }}
