@@ -437,8 +437,8 @@
                         <ul class="ml-6 list-disc">
                             <li>
                                 <a class="hover:text-primary"
-                                    href="https://www.google.com/maps/place/Pico+1641,+B1721JYG+Merlo,+Provincia+de+Buenos+Aires/@-34.704101,-58.7287971,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc02454f83765:0x170a0f0c0d290b9c!8m2!3d-34.704101!4d-58.7287971?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D">
-                                    Pico 1641, Piso 9 dpto A, B1721JYG Merlo, Provincia de Buenos Aires
+                                    href="https://www.google.com.ar/maps/place/Pico+1641,+C1429+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.5364384,-58.4695817,17.28z/data=!4m6!3m5!1s0x95bcb7772c17f071:0xd1b5cab81903182d!8m2!3d-34.5368259!4d-58.4670462!16s%2Fg%2F11sdn5kb0j?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D">
+                                    PICO 1641, C1429 CABA, Argentina
                                 </a>
                             </li>
                         </ul>
