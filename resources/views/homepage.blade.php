@@ -2,10 +2,10 @@
     <span id="home"></span>
 
     <section class="container mx-auto mt-10 wow animate__animated animate__fadeInLeft h-3/5">
-        <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
-            <div><img src="/img/banners/flygo3.jpeg" alt=""></div>
-            <div><img src="/img/banners/flygo1.jpeg" alt=""></div>
-            <div><img src="/img/banners/flygo2.jpeg" alt=""></div>
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
+            <div><img src="/img/banners/flygo3.jpeg" alt="FlyGo" title="FlyGo" class=""></div>
+            <div class="hidden md:block"><img src="/img/banners/flygo1.jpeg" alt="FlyGo" title="FlyGo"></div>
+            <div><img src="/img/banners/flygo2.jpeg" alt="FlyGo" title="FlyGo" class=""></div>
         </div>
     </section>
 
@@ -14,13 +14,13 @@
 
     <section id="phrases"
         class="container mx-auto mt-10 splide wow animate__animated animate__fadeInLeft animate__delay-1s h-3/5">
-        <div class="mx-auto my-20 text-white w-fit">
+        <div class="mx-auto mt-20 text-white w-fit">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
         </div>
-        <div class="w-full text-center text-white text-balance splide__track">
+        <div class="w-full my-20 text-center text-white text-balance splide__track">
             <ul class="splide__list">
                 <li class="px-2 splide__slide">
                     <h2 class="text-2xl font-bold">Transparencia</h2>
@@ -35,6 +35,18 @@
                     <p>Tu satisfacción es nuestra prioridad; estamos aquí para ayudarte a crecer.</p>
                 </li>
             </ul>
+        </div>
+        <div class="flex flex-col w-full md:flex-row my-7">
+            <img src="/img/deposito.jpg" alt="FlyGo - Depósito" class="w-full md:w-1/2">
+            <div class="w-full bg-white font-poppins p-7">
+                <h1 class="mb-2 text-2xl font-bold text-primary">Nuestro Depósito:</h1>
+                <p>Espacio y Eficiencia al Servicio de tu Negocio
+                    Contamos con un depósito de amplias dimensiones, diseñado para almacenar grandes volúmenes de
+                    mercancías con total seguridad y eficiencia. Su estratégica distribución y capacidad nos permiten
+                    manejar cargas de todos los tamaños, garantizando un flujo logístico ágil y confiable. Equipado con
+                    tecnología moderna y un equipo capacitado, nuestro depósito asegura que tus productos estén siempre
+                    en las mejores condiciones.</p>
+            </div>
         </div>
         <div class="mx-auto my-20 text-white w-fit">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -55,7 +67,8 @@
                     </svg>
                 </div>
                 <h3 class="mb-3 text-2xl font-bold">Confiabilidad</h3>
-                <p class="text-balance">Trabajamos con los estándares más altos de seguridad y transparencia.</p>
+                <p class="w-1/2 mx-auto mb-10 text-balance">Trabajamos con los estándares más altos de seguridad y
+                    transparencia.</p>
             </div>
             <div class="px-5 text-center border-gray-300 border-none md:border-solid md:border-r">
                 <div class="mx-auto mb-3 w-fit">
@@ -66,7 +79,11 @@
                     </svg>
                 </div>
                 <h3 class="mb-3 text-2xl font-bold">Innovación</h3>
-                <p class="text-balance">Nos adaptamos a los cambios del mercado global para ofrecerte lo mejor.</p>
+                <p class="w-1/2 mx-auto mb-10 text-balance">Nos adaptamos a los cambios del mercado global para
+                    ofrecerte
+                    lo
+                    mejor.
+                </p>
             </div>
             <div class="px-5 text-center ">
                 <div class="mx-auto mb-3 w-fit">
@@ -77,18 +94,21 @@
                     </svg>
                 </div>
                 <h3 class="mb-3 text-2xl font-bold">Compromiso</h3>
-                <p class="text-balance">Nos dedicamos a facilitar tu negocio, haciéndote llegar lo que necesitas sin
+                <p class="w-1/2 mx-auto mb-10 text-balance">Nos dedicamos a facilitar tu negocio, haciéndote llegar lo
+                    que
+                    necesitas
+                    sin
                     complicaciones.</p>
             </div>
         </div>
     </section>
 
     <section id="contact"
-        class="container flex flex-row p-10 mx-auto mt-10 bg-white wow animate__animated animate__fadeInLeft">
+        class="container flex flex-col py-10 mx-auto mt-10 bg-white md:px-10 lg:flex-row wow animate__animated animate__fadeInLeft h-fit">
         <form action="" method="post"
             class="flex flex-col w-full p-5 space-y-2 overflow-hidden font-mulish animate__animated animate__slideInUp">
             @csrf
-            <h1 class="text-2xl font-bold font-poppins">Contact Us</h1>
+            <h1 class="text-2xl font-bold font-poppins">{{ __('Contact Us') }}</h1>
 
             <label for="ctct-name">{{ __('Full Name') }}</label>
             <input class="px-2 py-3 border border-gray-800 rounded-sm outline-none" type="text" name="ctct-name"
@@ -98,11 +118,14 @@
                 id="ctct-email" placeholder="liomessi@gmail.com">
             <label for="ctct-message">{{ __('Message') }}</label>
             <textarea class="px-2 py-3 border border-gray-800 rounded-sm outline-none" name="ctct-message" id="ctct-message"
-                cols="30" rows="10" placeholder="Message"></textarea>
-
+                cols="30" rows="10" placeholder="{{ __('Message') }}"></textarea>
+            <button type="submit"
+                class="p-3 text-white transition-all ease-in rounded-md bg-primary hover:bg-secondary">
+                <p>{{ __('Send') }}</p>
+            </button>
         </form>
         <div class="w-full">
-
+            <div><img src="/img/banners/flygo1.jpeg" alt="FlyGo" class="mx-auto w-[500px]"></div>
         </div>
     </section>
 </x-layout>
