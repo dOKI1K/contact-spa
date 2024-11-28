@@ -16,14 +16,14 @@ html {
 }
 
 .nav-toggle .bar {
-    height: 3px;
+    height: 2px;
     width: 100%;
     background-color: #ffffff;
     transition: all 100ms ease-in-out;
 }
 
 .nav-toggle .bar2 {
-    height: 3px;
+    height: 2px;
     width: 80%;
     background-color: #ffffff;
     transition: all 100ms ease-in-out;

@@ -3,9 +3,20 @@
 
     <section class="container mx-auto mt-10 wow animate__animated animate__fadeInLeft h-3/5">
         <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
+            <div><img src="/img/banners/flygo2.jpeg" alt="FlyGo" title="FlyGo" class=""></div>
             <div><img src="/img/banners/flygo3.jpeg" alt="FlyGo" title="FlyGo" class=""></div>
             <div class="hidden md:block"><img src="/img/banners/flygo1.jpeg" alt="FlyGo" title="FlyGo"></div>
-            <div><img src="/img/banners/flygo2.jpeg" alt="FlyGo" title="FlyGo" class=""></div>
+        </div>
+    </section>
+
+    <section class="container mx-auto mt-5 wow animate__animated animate__fadeInLeft h-3/5">
+        <div class="flex flex-col text-center md:flex-row">
+            <div class="w-full text-white bg-primary p-7">
+                <h3 class="text-3xl font-semibold font-rubik">¿Tenes consultas?<br>Contactanos</h3>
+            </div>
+            <div class="flex items-center w-full bg-white text-primary p-7">
+                <h3 class="mx-auto text-3xl font-semibold w-fit font-rubik">0800-777-2024</h3>
+            </div>
         </div>
     </section>
 
@@ -103,7 +114,14 @@
         </div>
     </section>
 
-    <section id="contact"
+    <div id="contact" class="mx-auto mt-20 text-white w-fit">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+        </svg>
+    </div>
+
+    <section
         class="container flex flex-col py-10 mx-auto mt-10 bg-white md:px-10 lg:flex-row wow animate__animated animate__fadeInLeft h-fit">
         <form action="" method="post"
             class="flex flex-col w-full p-5 space-y-2 overflow-hidden font-mulish animate__animated animate__slideInUp">

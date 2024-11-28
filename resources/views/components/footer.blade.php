@@ -26,8 +26,10 @@
             </div>
         </div>
     </div>
-    <div class="py-5 text-center text-white bg-gray-800 cursor-default">
-        <p>Designed by <a href="" class="cursor-pointer hover:text-secondary">dOKI</a> • All rights reserved
+    <div class="py-2 text-center text-white bg-gray-800 cursor-default">
+        <p class="flex flex-col mx-auto text-xs text-center md:flex-row w-fit gap-x-1">Designed by <a href=""
+                class="cursor-pointer hover:text-secondary">dOKI</a>
+            <br class="sm:hidden"> <span class="hidden sm:block">•</span> All rights reserved
             &copy;
             {{ Carbon\Carbon::now()->year }}
         </p>
