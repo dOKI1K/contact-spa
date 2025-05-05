@@ -18,7 +18,7 @@
             </div>
 
             <div class="w-full py-5 ml-4 lg:py-0 md:">
-                <img src="/img/quienes-somos.jpg" alt="VIDASUG" title="VIDASUG">
+                <img src="" alt="VIDASUG" title="VIDASUG">
             </div>
         </div>
     </section>
@@ -28,7 +28,7 @@
         <div id="bariatric-surgery-program" class="-translate-y-28"></div>
         <div class="flex flex-col items-center p-10 bg-white rounded-md lg:flex-row">
             <div class="w-full">
-                <img src="/img/surg-bar.jpg" alt="{{ __('Programa de cirugia bariatrica') }}"
+                <img src="" alt="{{ __('Programa de cirugia bariatrica') }}"
                     title="{{ __('Programa de cirugia bariatrica') }}" class="mx-auto w-[500px]">
             </div>
             <div>
@@ -61,7 +61,7 @@
                 </p>
             </div>
             <div class="w-full">
-                <img src="/img/mini-bypass.png" alt="VIDASUG" title="VIDASUG">
+                <img src="" alt="VIDASUG" title="VIDASUG">
             </div>
         </div>
     </section>
@@ -83,8 +83,7 @@
                 </p>
             </div>
             <div class="w-full">
-                <img src="/img/telecomunicacion.jpg"
-                    alt="{{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}"
+                <img src="" alt="{{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}"
                     title="{{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}"
                     class="mx-auto w-[500px]">
             </div>
@@ -95,7 +94,7 @@
         class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
         <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
             <div class="lg:w-[500px] w-full mt-8 md:mr-10">
-                <img src="/img/educacion.webp" alt="Vidasug" title="Vidasug" class="w-full mx-auto">
+                <img src="" alt="Vidasug" title="Vidasug" class="w-full mx-auto">
             </div>
             <div class="w-full">
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
@@ -151,7 +150,7 @@
         <div id="nutrition-and-health" class="-translate-y-28"></div>
         <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
             <div class="w-full">
-                <img src="/img/nutrcion.png" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
+                <img src="" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
             </div>
             <div>
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">{{ __('Nutrición y Salud') }}</h1>
@@ -174,7 +173,7 @@
         class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
         <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
             <div class="w-full">
-                <img src="/img/suplementos.png" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
+                <img src="" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
             </div>
             <div>
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
@@ -303,7 +302,7 @@
                 </div>
             </div>
             <div class="w-full mt-6">
-                <img src="/img/medicine.svg" alt="VIDASUG" title="VIDASUG">
+                <img src="" alt="VIDASUG" title="VIDASUG">
             </div>
         </div>
     </section>
@@ -316,7 +315,7 @@
                         class="z-30 m-2 transition-all hover:-translate-y-1">
                         <div
                             class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="/img/sponsor/mountsinai.png" alt="Mount Sinai" class="h-[100px] w-fit mx-auto">
+                            <img src="" alt="Mount Sinai" class="h-[100px] w-fit mx-auto">
                             <div class="p-2">
                                 <h2 class="font-semibold text-gray-500 text-md">Mount Sinai</h2>
                             </div>
@@ -329,8 +328,7 @@
                         class="z-30 m-2 transition-all hover:-translate-y-1">
                         <div
                             class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="/img/sponsor/memorialhospital.svg" alt="Memorial Hospital"
-                                class="h-[100px] w-fit mx-auto">
+                            <img src="" alt="Memorial Hospital" class="h-[100px] w-fit mx-auto">
                             <div class="p-2">
                                 <h2 class="font-semibold text-gray-500 text-md">Memorial Hospital</h2>
                             </div>
@@ -343,8 +341,7 @@
                         class="z-30 m-2 transition-all hover:-translate-y-1">
                         <div
                             class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="/img/sponsor/jeffersonhealthcare.png" alt="Jefferson Healthcare"
-                                class="h-[100px] w-fit mx-auto">
+                            <img src="" alt="Jefferson Healthcare" class="h-[100px] w-fit mx-auto">
                             <div class="p-2">
                                 <h2 class="font-semibold text-gray-500 text-md">Jefferson Healthcare</h2>
                             </div>
@@ -357,8 +354,7 @@
                         class="z-30 m-2 transition-all hover:-translate-y-1">
                         <div
                             class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="/img/sponsor/presbyterian.svg" alt="Presbyterian"
-                                class="h-[100px] w-fit mx-auto">
+                            <img src="" alt="Presbyterian" class="h-[100px] w-fit mx-auto">
                             <div class="p-2">
                                 <h2 class="font-semibold text-gray-500 text-md">Presbyterian</h2>
                             </div>
@@ -371,8 +367,7 @@
                         class="z-30 m-2 transition-all hover:-translate-y-1">
                         <div
                             class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="/img/sponsor/hopkins-medicine.svg" alt="John Hopkins"
-                                class="h-[100px] w-fit mx-auto">
+                            <img src="" alt="John Hopkins" class="h-[100px] w-fit mx-auto">
                             <div class="p-2">
                                 <h2 class="font-semibold text-gray-500 text-md">John Hopkins</h2>
                             </div>
@@ -385,8 +380,7 @@
                         class="z-30 m-2 transition-all hover:-translate-y-1">
                         <div
                             class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="/img/sponsor/ucla-health.svg" alt="UCLA Medical Center"
-                                class="h-[100px] w-fit mx-auto">
+                            <img src="" alt="UCLA Medical Center" class="h-[100px] w-fit mx-auto">
                             <div class="p-2">
                                 <h2 class="font-semibold text-gray-500 text-md">UCLA Medical Center</h2>
                             </div>
@@ -399,8 +393,7 @@
                         class="z-30 m-2 transition-all hover:-translate-y-1">
                         <div
                             class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="/img/sponsor/sierravista.png" alt="Clinica Sierra Vista"
-                                class="h-[100px] w-fit mx-auto">
+                            <img src="" alt="Clinica Sierra Vista" class="h-[100px] w-fit mx-auto">
                             <div class="p-2">
                                 <h2 class="font-semibold text-gray-500 text-md">Clinica Sierra Vista</h2>
                             </div>
@@ -416,7 +409,7 @@
         <div id="contact-us" class="-translate-y-28"></div>
         <div class="flex flex-col-reverse items-center p-4 rounded-md lg:p-10 xl:flex-row">
             <div class="w-full xl:w-1/3">
-                <img src="/img/contacto.jpg" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
+                <img src="" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
             </div>
 
             <div class="p-4 transition-all ease-in-out lg:p-10">
