@@ -1,4 +1,4 @@
-<header class="fixed z-50 w-full pt-5 bg-secondary md:sticky -top-5 animate__animated animate__fadeInDown">
+<header class="sticky z-50 w-full pt-5 bg-secondary md:sticky -top-5 animate__animated animate__fadeInDown">
     <div
         class="relative z-50 flex flex-row items-center justify-between w-full px-5 pt-3 pb-3 mx-auto text-xl text-center lg:container font-poppins">
 

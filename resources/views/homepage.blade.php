@@ -3,7 +3,20 @@
 
     <section
         class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row">
-        <div class="w-full md:w-[30%] relative">
+
+        <div class="flex flex-col justify-center w-full md:w-[50%] h-full bg-white p-7">
+            <img src="/img/logo.png" alt="Al Vuelo" class="mb-4 w-28" />
+            <h1 class="text-2xl font-bold">{{ __('Hero.title') }}</h1>
+            <p class="flex-wrap mt-2 text-sm text-balance">{{ __('Hero.description') }}</p>
+            <div class="flex flex-col items-center w-full gap-2 mt-4 md:flex-row">
+                <a href="#contact"
+                    class="w-full px-4 py-2 text-lg font-semibold text-center text-white transition-colors ease-in-out delay-100 md:w-fit bg-[#ff9100] rounded-md hover:bg-orange-500">{{ __('Contact Us') }}</a>
+                <a href="#us"
+                    class="w-full px-4 py-2 text-lg font-semibold text-center border border-gray-400 rounded-md md:w-fit">{{ __('Learn More') }}</a>
+            </div>
+        </div>
+
+        {{-- <div class="w-full md:w-[30%] relative">
             <div class="absolute top-0 left-0 w-full h-full">
                 <div>
                     <h1 class="text-2xl font-bold">{{ __('Hero.title') }}</h1>
@@ -11,8 +24,8 @@
                     <a href="">{{ __('Learn More') }}</a>
                 </div>
             </div>
-        </div>
-        <div class="w-full md:w-[70%] z-10">
+        </div> --}}
+        <div class="w-full md:w-[50%] z-10">
             <img src="/img/1-first.jpg" alt="Hero">
         </div>
     </section>
@@ -215,9 +228,9 @@
     </section>
 
     <section
-        class="container mx-auto mt-10 text-white border rounded-md shadow-lg bg-slate-700 border-primary wow animate__animated animate__fadeInLefts">
+        class="container pt-6 mx-auto mt-10 text-white shadow-lg bg-slate-700 wow animate__animated animate__fadeInLefts">
         <div id="contact-us" class="-translate-y-28"></div>
-        <div class="flex flex-col-reverse items-center p-4 rounded-md lg:p-10 xl:flex-row">
+        <div class="flex flex-col-reverse items-center rounded-md xl:flex-row">
             <div class="w-full xl:w-1/3">
                 <img src="/img/6-sixth.jpg" alt="CBR Group" title="CBR Group" class="mx-auto w-[500px]">
             </div>
@@ -226,7 +239,7 @@
                 <h1 class="mb-6 text-2xl font-bold font-poppins">{{ __('ContactForm.title') }}</h1>
 
                 <div class="flex flex-col md:flex-row">
-                    <div class="w-full p-5 border-b border-white md:border-b-0 md:border-r">
+                    <div class="w-full p-5 border-b border-white md:border-b-0">
                         <div class="flex flex-row gap-2 py-3">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -235,15 +248,11 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                             </svg>
+                            <a class="hover:text-primary" target="_blank"
+                                href="https://www.google.com/maps/place/310+Racquet+Club+Rd+APT+101,+Weston,+FL+33326,+EE.+UU./@26.1259751,-80.3839895,14z/data=!4m6!3m5!1s0x88d90a3c43eafc83:0x2a89b2d2b95525a8!8m2!3d26.1249974!4d-80.3807601!16s%2Fg%2F11f4lhxqqd?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
+                                310 Racquet Club, APT 101, Weston, FL, 33326-1119
+                            </a>
                         </div>
-                        <ul class="ml-6 list-disc">
-                            <li>
-                                <a class="hover:text-primary"
-                                    href="https://www.google.com.ar/maps/place/Pico+1641,+C1429+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.5364384,-58.4695817,17.28z/data=!4m6!3m5!1s0x95bcb7772c17f071:0xd1b5cab81903182d!8m2!3d-34.5368259!4d-58.4670462!16s%2Fg%2F11sdn5kb0j?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D">
-                                    310 Racquet Club, APT 101, Weston, FL, 33326-1119
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
 
@@ -256,14 +265,8 @@
                                     d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
                             </svg>
 
-                            <p>{{ __('Correo electrónico') }}</p>
+                            <a class="hover:text-primary" href="mailto:sales@CBR Group.com">info@cbrgroupllc.com</a>
                         </div>
-                        <ul class="ml-6 list-disc">
-                            <li>
-                                <a class="hover:text-primary" href="mailto:sales@CBR Group.com">sales@CBR
-                                    Group.com</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
