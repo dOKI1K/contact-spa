@@ -11,6 +11,7 @@
     <meta name="keywords"
         content="CBR Group, CBR Group, bariatric, cirugia, surgery, bypass, CBR Group, gastrico, eeuu, usa, quirurgica, nutricion, salud, argentina, operacion, suplementos, bienestar, estomago, bariatrica, obesidad, obesity">
 
+    <meta name="author" content="dOKI | Lahuen Millananco">
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
     <link rel="icon" href="{{ env('APP_URL') . '/favicon.ico' }}" type="image/x-icon">
     <meta property="og:image" itemprop="image" content="@yield('icon', 'https://CBR Group.com/favicon.ico')" />

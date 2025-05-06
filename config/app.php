@@ -78,9 +78,9 @@ return [
     |
     */
 
-    'locale' => 'es',
+    'locale' => 'en',
 
-    'fallback_locale' => 'es',
+    'fallback_locale' => 'en',
 
     'faker_locale' => 'en_US',
 

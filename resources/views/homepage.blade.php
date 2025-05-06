@@ -2,124 +2,128 @@
     <span id="home"></span>
 
     <section
-        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row">
+        class="container flex flex-col h-full mx-auto mt-10 bg-white rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row rounded-br-[16rem]">
 
-        <div class="flex flex-col justify-center w-full md:w-[50%] h-full bg-white p-7">
-            <img src="/img/logo.png" alt="Al Vuelo" class="mb-4 w-28" />
-            <h1 class="text-2xl font-bold">{{ __('Hero.title') }}</h1>
-            <p class="flex-wrap mt-2 text-sm text-balance">{{ __('Hero.description') }}</p>
-            <div class="flex flex-col items-center w-full gap-2 mt-4 md:flex-row">
-                <a href="#contact"
-                    class="w-full px-4 py-2 text-lg font-semibold text-center text-white transition-colors ease-in-out delay-100 md:w-fit bg-[#ff9100] rounded-md hover:bg-orange-500">{{ __('Contact Us') }}</a>
-                <a href="#us"
-                    class="w-full px-4 py-2 text-lg font-semibold text-center border border-gray-400 rounded-md md:w-fit">{{ __('Learn More') }}</a>
-            </div>
-        </div>
-
-        {{-- <div class="w-full md:w-[30%] relative">
-            <div class="absolute top-0 left-0 w-full h-full">
-                <div>
-                    <h1 class="text-2xl font-bold">{{ __('Hero.title') }}</h1>
-                    <p class="text-balance">{{ __('Hero.description') }}</p>
-                    <a href="">{{ __('Learn More') }}</a>
+        <article class="w-full md:w-[40%] bg-white flex items-center justify-center p-7">
+            <div class="flex flex-col bg-white">
+                {{-- <img src="/img/logo.png" alt="CBR Group" class="mb-4 w-28" /> --}}
+                <h1 class="text-2xl font-bold">{{ __('Hero.title') }}</h1>
+                <p class="flex-wrap mt-2 text-sm text-balance">{{ __('Hero.description') }}</p>
+                <div class="flex flex-col items-center w-full gap-2 mt-4 md:flex-row">
+                    <a href="#contact"
+                        class="w-full px-4 py-2 text-lg font-semibold text-center text-white transition-colors ease-in-out delay-100 rounded-md md:w-fit bg-secondary hover:bg-sky-900">{{ __('Contact Us') }}</a>
+                    <a href="#us"
+                        class="w-full px-4 py-2 text-lg font-semibold text-center border border-gray-400 rounded-md md:w-fit">{{ __('Learn More') }}</a>
                 </div>
             </div>
-        </div> --}}
-        <div class="w-full md:w-[50%] z-10">
-            <img src="/img/1-first.jpg" alt="Hero">
+        </article>
+
+        <div class="w-full md:w-[60%] z-10 md:rounded-tl-[16rem] rounded-br-[16rem] bg-white">
+            <img src="/img/1-first.jpg" alt="Hero" class="md:rounded-tl-[16rem] rounded-br-[16rem]">
         </div>
     </section>
 
     <section
         class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row">
+        <div>
+            <img src="/img/logo.png" alt="CBR Group" class="w-[150px]">
+        </div>
         <div class="w-full p-7">
             <p class="text-balance">{{ __('Hero.intro') }}</p>
         </div>
     </section>
 
     <section
-        class="container mx-auto mt-10 bg-white border rounded-md shadow-lg border-primary shadow-gray-200 animate__animated animate__zoomInUp">
-        <div id="bariatric-surgery-program" class="-translate-y-28"></div>
-        <div class="flex flex-col items-center p-10 bg-white rounded-md lg:flex-row">
-            <div class="w-full">
+        class="container mx-auto mt-10 bg-secondary md:rounded-bl-[16rem] rounded-md shadow-lg shadow-gray-200 animate__animated animate__zoomInUp">
+        <div id="about-us" class="-translate-y-36"></div>
+        <div class="flex flex-col rounded-md lg:flex-row md:rounded-bl-[16rem]">
+            <div class="w-full md:w-[50%] md:rounded-bl-[16rem]">
                 <img src="/img/2-second.jpg" alt="{{ __('About Us') }}" title="{{ __('About Us') }}"
-                    class="mx-auto w-[500px]">
+                    class="w-full mx-auto md:rounded-bl-[16rem]">
             </div>
-            <div>
+            <div class="w-full md:w-[50%] p-7 bg-secondary h-full">
                 <h1 class="mb-2 text-2xl font-bold text-primary font-poppins">{{ __('About Us') }}
                 </h1>
-                <p class="text-balance">
+                <p class="text-white text-balance">
                     {{ __('WhoWeAre.p') }}
                 </p>
+
+                <article class="flex flex-col justify-between h-full gap-6 py-6 rounded-md lg:flex-row">
+                    <div class="w-full p-4 bg-white rounded-md shadow-md">
+                        <h3 class="text-lg font-semibold text-primary">{{ __('Mission') }}</h3>
+                        <p class="tetx-balance">{{ __('WhoWeAre.mission') }}</p>
+                    </div>
+                    <div class="w-full p-4 bg-white rounded-md shadow-md">
+                        <h3 class="text-lg font-semibold text-primary">{{ __('Vision') }}</h3>
+                        <p class="tetx-balance">{{ __('WhoWeAre.vision') }}</p>
+                    </div>
+                </article>
             </div>
         </div>
-        <article class="flex flex-col justify-between h-full gap-6 p-10 bg-white rounded-md lg:flex-row">
-            <div class="w-full p-4 rounded-md shadow-md">
-                <h3 class="text-lg font-semibold">{{ __('Mission') }}</h3>
-                <p class="tetx-balance">{{ __('WhoWeAre.mission') }}</p>
-            </div>
-            <div class="w-full p-4 rounded-md shadow-md">
-                <h3 class="text-lg font-semibold">{{ __('Vision') }}</h3>
-                <p class="tetx-balance">{{ __('WhoWeAre.vision') }}</p>
-            </div>
-            <div class="w-full p-4 rounded-md shadow-md">
-                <h3 class="text-lg font-semibold">{{ __('Values') }}</h3>
-                <ul class="ml-4 list-disc tetx-balance">
-                    <li>{{ __('values.1') }}</li>
-                    <li>{{ __('values.2') }}</li>
-                    <li>{{ __('values.3') }}</li>
-                    <li>{{ __('values.4') }}</li>
-                </ul>
-            </div>
-        </article>
+    </section>
+
+    <section
+        class="container flex flex-col mx-auto mt-10 bg-white rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft wow md:flex-row">
+
+        <div class="w-full p-4 rounded-md shadow-md">
+            <h3 class="text-lg font-semibold">{{ __('Values') }}</h3>
+            <ul class="ml-4 list-disc tetx-balance">
+                <li>{{ __('values.1') }}</li>
+                <li>{{ __('values.2') }}</li>
+                <li>{{ __('values.3') }}</li>
+                <li>{{ __('values.4') }}</li>
+            </ul>
+        </div>
+
     </section>
 
     <section
         class="container mx-auto mt-10 bg-white rounded-md shadow-lg shadow-gray-200 wow animate__animated animate__fadeInLeft">
-        <div class="flex flex-col items-center p-10 bg-white rounded-md lg:flex-row ">
+        <div class="flex flex-col bg-white rounded-md lg:flex-row ">
             <div>
-                <img src="/img/3-third.jpg" alt="{{ __('Medical Technology') }}"
-                    title="{{ __('Medical Technology') }}" class="mx-auto w-[500px]">
-
-                <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">{{ __('Medical Technology') }}</h1>
-                <p>
-                    {{ __('MedTech.p') }}
-                </p>
-                <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('MedTech.title') }}</h2>
-                <ul>
-                    <li
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.1') }}</h3>
+                <div class="flex flex-col w-full md:flex-row-reverse">
+                    <img src="/img/3-third.jpg" alt="{{ __('Medical Technology') }}"
+                        title="{{ __('Medical Technology') }}" class="w-full md:w-[50%]" />
+                    <article class="p-6">
+                        <h1 class="w-full md:w-[50%] mb-2 text-3xl font-semibold text-primary font-poppins pb-4">
+                            {{ __('Medical Technology') }}
+                        </h1>
+                        <p>
+                            {{ __('MedTech.p') }}
+                        </p>
+                    </article>
+                </div>
+                <ul class="grid grid-cols-1 gap-4 p-6 lg:grid-cols-2 bg-secondary">
+                    <li class="flex items-center justify-center p-5 text-center">
+                        <h2 class="py-4 text-2xl font-bold text-primary font-poppins">
+                            {{ __('MedTech.title') }}</h2>
+                    </li>
+                    <li class="p-5 transition-all ease-in-out hover:-translate-y-2 bg-light">
+                        <h3 class="py-2 font-semibold text-primary font-poppins">{{ __('Licences.1') }}</h3>
                         <p>{{ __('Licences.1p') }}</p>
                     </li>
-                    <li
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.2') }}</h3>
+                    <li class="p-5 transition-all ease-in-out hover:-translate-y-2 bg-light">
+                        <h3 class="py-2 font-semibold text-primary font-poppins">{{ __('Licences.2') }}</h3>
                         <p>{{ __('Licences.2p') }}</p>
                     </li>
-                    <li
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.3') }}</h3>
+                    <li class="p-5 transition-all ease-in-out hover:-translate-y-2 bg-light">
+                        <h3 class="py-2 font-semibold text-primary font-poppins">{{ __('Licences.3') }}</h3>
                         <p>{{ __('Licences.3p') }}</p>
                     </li>
-                    <li
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.4') }}</h3>
+                    <li class="p-5 transition-all ease-in-out hover:-translate-y-2 bg-light">
+                        <h3 class="py-2 font-semibold text-primary font-poppins">{{ __('Licences.4') }}</h3>
                         <p>{{ __('Licences.4p') }}</p>
                     </li>
-                    <li
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.5') }}</h3>
+                    <li class="p-5 transition-all ease-in-out hover:-translate-y-2 bg-light">
+                        <h3 class="py-2 font-semibold text-primary font-poppins">{{ __('Licences.5') }}</h3>
                         <p>{{ __('Licences.5p') }}</p>
                     </li>
-                    <li
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.6') }}</h3>
+                    <li class="p-5 transition-all ease-in-out hover:-translate-y-2 bg-light">
+                        <h3 class="py-2 font-semibold text-primary font-poppins">{{ __('Licences.6') }}</h3>
                         <p>{{ __('Licences.6p') }}</p>
                     </li>
-                    <li
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.7') }}</h3>
+                    <li class="p-5 transition-all ease-in-out hover:-translate-y-2 bg-light rounded-br-[6rem]">
+                        <h3 class="py-2 font-semibold text-primary font-poppins">{{ __('Licences.7') }}</h3>
                         <p>{{ __('Licences.7p') }}</p>
                     </li>
                 </ul>
@@ -133,22 +137,27 @@
             <div class="w-full">
                 <div>
                     <h1 class="text-2xl font-bold">{{ __('Hook.title') }}</h1>
-                    <p class="text-balance">{{ __('Hook.description') }}</p>
-                    <a href="">{{ __('Learn More') }}</a>
+                    <p class="mb-5 text-balance">{{ __('Hook.description') }}</p>
+                    <a href=""
+                        class="w-full px-4 py-2 text-lg font-semibold text-center text-white transition-colors ease-in-out delay-100 rounded-md md:w-fit bg-secondary hover:bg-sky-900">{{ __('Learn More') }}</a>
                 </div>
             </div>
 
         </article>
     </section>
 
-    <section id="sponsor" class="container flex flex-col mx-auto mt-10 rounded-lg splide md:flex-row">
-        <div class="lg:w-[500px] w-full mt-8 md:mr-10">
-            <img src="/img/4-fourth.jpg" alt="CBR Groups" title="CBR Groups" class="w-full mx-auto">
-        </div>
+    <section id="sponsor" class="container flex flex-col mx-auto mt-10 rounded-lg splide">
+        <article class="flex flex-col items-center justify-center bg-white rounded-lg lg:flex-row">
+            <div class="md:w-[60%] w-full">
+                <img src="/img/4-fourth.jpg" alt="CBR Groups" title="CBR Groups" class="w-full">
+            </div>
+            <div class="md:w-[40%] w-full">
+                <h2 class="py-4 text-2xl font-semibold text-primary font-poppins">{{ __('Partners') }} 🤝</h2>
+                <p class="text-balance">{{ __('Partners.title') }}</p>
+            </div>
+        </article>
 
         <div class="rounded-lg splide__track">
-            <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners') }} 🤝</h2>
-            <p class="text-balance">{{ __('Partners.title') }}</p>
             <ul class="grid grid-cols-2 rounded-lg splide__list lg:grid-cols-6">
                 <li
                     class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
