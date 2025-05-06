@@ -2,24 +2,25 @@
     <span id="home"></span>
 
     <section
-        class="container mx-auto mt-10 bg-white rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft">
-        <div id="about-us" class="-translate-y-28"></div>
-        <div class="flex flex-col-reverse items-center p-10 lg:flex-row">
-            <div>
-
-                <h1 class="mb-2 text-2xl font-bold text-primary font-poppins">{{ __('Quienes somos') }}</h1>
-                <p>
-                    {{ __('Section1a') }} <br><br>
-                    {{ __('Section1b') }} <br><br>
-                    {{ __('Section1c') }} <br><br>
-                    {{ __('Section1d') }} <br><br>
-                    {{ __('Section1e') }}
-                </p>
+        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row">
+        <div class="w-full md:w-[30%] relative">
+            <div class="absolute top-0 left-0 w-full h-full">
+                <div>
+                    <h1 class="text-2xl font-bold">{{ __('Hero.title') }}</h1>
+                    <p class="text-balance">{{ __('Hero.description') }}</p>
+                    <a href="">{{ __('Learn More') }}</a>
+                </div>
             </div>
+        </div>
+        <div class="w-full md:w-[70%] z-10">
+            <img src="/img/1-first.jpg" alt="Hero">
+        </div>
+    </section>
 
-            <div class="w-full py-5 ml-4 lg:py-0 md:">
-                <img src="" alt="VIDASUG" title="VIDASUG">
-            </div>
+    <section
+        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row">
+        <div class="w-full p-7">
+            <p class="text-balance">{{ __('Hero.intro') }}</p>
         </div>
     </section>
 
@@ -28,40 +29,87 @@
         <div id="bariatric-surgery-program" class="-translate-y-28"></div>
         <div class="flex flex-col items-center p-10 bg-white rounded-md lg:flex-row">
             <div class="w-full">
-                <img src="" alt="{{ __('Programa de cirugia bariatrica') }}"
-                    title="{{ __('Programa de cirugia bariatrica') }}" class="mx-auto w-[500px]">
+                <img src="/img/2-second.jpg" alt="{{ __('About Us') }}" title="{{ __('About Us') }}"
+                    class="mx-auto w-[500px]">
             </div>
             <div>
-                <h1 class="mb-2 text-2xl font-bold text-primary font-poppins">{{ __('Programa de cirugia bariatrica') }}
+                <h1 class="mb-2 text-2xl font-bold text-primary font-poppins">{{ __('About Us') }}
                 </h1>
-                <p>
-                    {{ __('Section2a') }} <br><br>
-                    {{ __('Section2b') }} <br><br>
-                    {{ __('Section2c') }} <br><br>
-                    {{ __('Section2d') }}
+                <p class="text-balance">
+                    {{ __('WhoWeAre.p') }}
                 </p>
             </div>
         </div>
+        <article class="flex flex-col justify-between h-full gap-6 p-10 bg-white rounded-md lg:flex-row">
+            <div class="w-full p-4 rounded-md shadow-md">
+                <h3 class="text-lg font-semibold">{{ __('Mission') }}</h3>
+                <p class="tetx-balance">{{ __('WhoWeAre.mission') }}</p>
+            </div>
+            <div class="w-full p-4 rounded-md shadow-md">
+                <h3 class="text-lg font-semibold">{{ __('Vision') }}</h3>
+                <p class="tetx-balance">{{ __('WhoWeAre.vision') }}</p>
+            </div>
+            <div class="w-full p-4 rounded-md shadow-md">
+                <h3 class="text-lg font-semibold">{{ __('Values') }}</h3>
+                <ul class="ml-4 list-disc tetx-balance">
+                    <li>{{ __('values.1') }}</li>
+                    <li>{{ __('values.2') }}</li>
+                    <li>{{ __('values.3') }}</li>
+                    <li>{{ __('values.4') }}</li>
+                </ul>
+            </div>
+        </article>
     </section>
 
     <section
         class="container mx-auto mt-10 bg-white rounded-md shadow-lg shadow-gray-200 wow animate__animated animate__fadeInLeft">
         <div class="flex flex-col items-center p-10 bg-white rounded-md lg:flex-row ">
             <div>
-                <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">{{ __('Mini Bypass Gástrico') }}</h1>
+                <img src="/img/3-third.jpg" alt="{{ __('Medical Technology') }}"
+                    title="{{ __('Medical Technology') }}" class="mx-auto w-[500px]">
+
+                <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">{{ __('Medical Technology') }}</h1>
                 <p>
-                    {{ __('Section3a') }} <br><br>
-                    {{ __('Section3b') }} <br><br>
+                    {{ __('MedTech.p') }}
                 </p>
-                <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Section3cTitle') }}</h2>
-                <p>
-                    {{ __('Section3c') }} <br><br>
-                    {{ __('Section3d') }} <br><br>
-                    {{ __('Section3e') }}
-                </p>
-            </div>
-            <div class="w-full">
-                <img src="" alt="VIDASUG" title="VIDASUG">
+                <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('MedTech.title') }}</h2>
+                <ul>
+                    <li
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.1') }}</h3>
+                        <p>{{ __('Licences.1p') }}</p>
+                    </li>
+                    <li
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.2') }}</h3>
+                        <p>{{ __('Licences.2p') }}</p>
+                    </li>
+                    <li
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.3') }}</h3>
+                        <p>{{ __('Licences.3p') }}</p>
+                    </li>
+                    <li
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.4') }}</h3>
+                        <p>{{ __('Licences.4p') }}</p>
+                    </li>
+                    <li
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.5') }}</h3>
+                        <p>{{ __('Licences.5p') }}</p>
+                    </li>
+                    <li
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.6') }}</h3>
+                        <p>{{ __('Licences.6p') }}</p>
+                    </li>
+                    <li
+                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.7') }}</h3>
+                        <p>{{ __('Licences.7p') }}</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>

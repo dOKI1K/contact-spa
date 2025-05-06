@@ -4,10 +4,10 @@
 
         <a class="text-3xl font-bold text-gray-800" href="{{ route('welcome') }}">
             <img src="/img/logo2.png" title="{{ config('app.name') }}" alt="{{ config('app.name') }}"
-                class="w-[160px] mx-auto">
+                class="w-24 md:w-[160px] mx-auto">
         </a>
 
-        <nav class="flex flex-row items-center space-x-6 text-base text-gray-800">
+        <nav class="flex-row items-center hidden space-x-6 text-base text-gray-800 md:flex">
             <a href="#" class="transition-all ease-in-out hover:text-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="#edbf6d" class="size-6">
@@ -16,13 +16,13 @@
                 </svg>
             </a>
             <a href="#about-us"
-                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Quienes somos') }}</a>
+                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('About Us') }}</a>
             <a href="#bariatric-surgery-program"
-                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Programa de cirugia bariatrica') }}</a>
+                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Medical Technology') }}</a>
             <a href="#nutrition-and-health"
-                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Nutricion y Salud') }}</a>
+                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Real Estate') }}</a>
             <a href="#contact-us"
-                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Contactanos') }}</a>
+                class="text-white transition-all ease-in-out hover:font-semibold hover:text-primary">{{ __('Contact Us') }}</a>
 
             <div>
                 @foreach (Config::get('languages') as $lang => $language)
@@ -65,16 +65,21 @@
     </div>
 
     <div id="nav-links"
-        class="absolute hidden flex-col w-full p-10 text-center bg-white shadow-lg border-t border-primary
-        top-[116px] md:hidden font-poppins shadow-gray-200 h-[60vh] gap-y-7">
-        <a href="#about-us" id="#nav-toggle"
-            class="text-xl font-semibold transition-all ease-in-out hover:text-primary">{{ __('Quienes somos') }}</a>
+        class="absolute hidden flex-col w-full p-10 text-left bg-gradient-to-br from-primary to-secondary
+        top-[130px] md:hidden h-[60vh] gap-y-7 rounded-br-[16rem]">
+        <a href="#about-us" id="#nav-toggle" class="text-xl transition-all ease-in-out hover:text-primary">
+            <p class="font-poppins">■ {{ __('About Us') }}</p>
+        </a>
         <a href="#bariatric-surgery-program" id="#nav-toggle"
-            class="text-xl font-semibold transition-all ease-in-out hover:text-primary">{{ __('Programa de cirugia bariatrica') }}</a>
-        <a href="#nutrition-and-health" id="#nav-toggle"
-            class="text-xl font-semibold transition-all ease-in-out hover:text-primary">{{ __('Nutricion y Salud') }}</a>
-        <a href="#contact-us" id="#nav-toggle"
-            class="text-xl font-semibold transition-all ease-in-out hover:text-primary">{{ __('Contactanos') }}</a>
+            class="text-xl transition-all ease-in-out hover:text-primary">
+            <p class="font-poppins">■ {{ __('Medical Technology') }}</p>
+        </a>
+        <a href="#nutrition-and-health" id="#nav-toggle" class="text-xl transition-all ease-in-out hover:text-primary">
+            <p class="font-poppins">■ {{ __('Real Estate') }}</p>
+        </a>
+        <a href="#contact-us" id="#nav-toggle" class="text-xl transition-all ease-in-out hover:text-primary">
+            <p class="font-poppins">■ {{ __('Contact Us') }}</p>
+        </a>
 
         <span class="justify-center text-sm text-gray-500 align-bottom">&copy;{{ Carbon\Carbon::now()->year }}</span>
     </div>

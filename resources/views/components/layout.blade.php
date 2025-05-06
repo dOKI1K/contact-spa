@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
 
-    <title>VIDASUG</title>
+    <title>CBR Group | Real State & Medice</title>
 </head>
 
-<body class="scroll-smooth bg-secondary font-jost">
+<body class="scroll-smooth bg-light font-jost">
     <x-header></x-header>
     <main>
         {{ $slot }}

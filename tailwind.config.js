@@ -3,7 +3,9 @@
 const siteColors = {
     'primary': '#edbf6d',
     'secondary': '#00032e',
+    'tertiary': '#6dc5ed',
     'success': '#198754',
+    'light': '#f8f9fa',
     'danger': '#dc3545',
     'warning': '#ffc107',
 };
