@@ -219,7 +219,7 @@
         <div id="contact-us" class="-translate-y-28"></div>
         <div class="flex flex-col-reverse items-center p-4 rounded-md lg:p-10 xl:flex-row">
             <div class="w-full xl:w-1/3">
-                <img src="" alt="CBR Group" title="CBR Group" class="mx-auto w-[500px]">
+                <img src="/img/6-sixth.jpg" alt="CBR Group" title="CBR Group" class="mx-auto w-[500px]">
             </div>
 
             <div class="p-4 transition-all ease-in-out lg:p-10">
@@ -235,40 +235,12 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                             </svg>
-                            <p>Argentina</p>
                         </div>
                         <ul class="ml-6 list-disc">
                             <li>
                                 <a class="hover:text-primary"
                                     href="https://www.google.com.ar/maps/place/Pico+1641,+C1429+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.5364384,-58.4695817,17.28z/data=!4m6!3m5!1s0x95bcb7772c17f071:0xd1b5cab81903182d!8m2!3d-34.5368259!4d-58.4670462!16s%2Fg%2F11sdn5kb0j?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D">
-                                    PICO 1641, C1429 CABA, Argentina
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="w-full p-5">
-                        <div class="flex flex-row gap-2 py-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                            </svg>
-                            <p>{{ __('Estados Unidos') }}</p>
-                        </div>
-                        <ul class="ml-6 list-disc">
-                            <li>
-                                <a class="hover:text-primary"
-                                    href="https://www.google.com/maps/place/2080+Century+Park+E+Suite+501,+Los+Angeles,+CA+90067,+EE.+UU./@34.0593451,-118.4112102,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2bbf3cd542ad7:0x4fda3bd043f6cc75!8m2!3d34.0593451!4d-118.4112102!16s%2Fg%2F11lkj6_f49?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D">
-                                    2080 Century Park East, Suite 501, Los Angeles, CA 90067
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-primary"
-                                    href="https://www.google.com/maps/place/1+W+Ridgewood+Ave+Suite+G02,+Paramus,+NJ+07652,+EE.+UU./@40.9704153,-74.0816907,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2e4d416eaaaab:0xee121cab0749062f!8m2!3d40.9704153!4d-74.0816907!16s%2Fg%2F11sttwpx1f?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D">
-                                    1 W Ridgewood Ave Suite G02, Paramus, NJ 07652, United States
+                                    310 Racquet Club, APT 101, Weston, FL, 33326-1119
                                 </a>
                             </li>
                         </ul>
@@ -276,23 +248,6 @@
                 </div>
 
                 <div class="flex flex-col md:flex-row">
-                    <div class="w-full p-5">
-                        <div class="flex flex-row gap-2 py-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                            </svg>
-
-                            <p>{{ __('Número telefónico') }}</p>
-                        </div>
-                        <ul class="ml-6 list-disc">
-                            <li>
-                                <a class="hover:text-primary" href="tel:+5492235792916">+54 9 2235792916</a>
-                            </li>
-                        </ul>
-                    </div>
-
                     <div class="w-full p-5">
                         <div class="flex flex-row gap-2 py-3">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"

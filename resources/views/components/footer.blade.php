@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="flex flex-col justify-center py-5 text-sm text-center text-white bg-gray-800 cursor-default md:flex-row">
-        <p>Designed by <a href="" class="cursor-pointer hover:text-secondary">dOKI</a></p>
+        <p>Designed by <a href="https://wa.me/5492944327231" class="cursor-pointer hover:text-secondary">dOKI</a></p>
         <p class="hidden px-2 md:block">•</p>
         <p>All rights reserved &copy; {{ Carbon\Carbon::now()->year }}</p>
     </div>
