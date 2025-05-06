@@ -1,12 +1,11 @@
 <footer class="w-full mt-10 font-poppins bg-primary">
-    {{-- bg-[#FF0080] --}}
     <div class="container pt-10 mx-auto px-7 md:px-0 pb-28">
         <div class="flex flex-col items-center justify-between text-white lg:flex-row gap-y-5 xl:mx-auto">
             <div class="w-full">
-                <h1 class="font-bold text-[30px]">VIDASUG</h1>
+                <h1 class="font-bold text-[30px]">CBR Group</h1>
             </div>
             <div class="w-full">
-                <p class="text-sm text-white">{{ __('Section1c') }}</p>
+                <p class="text-sm text-white">{{ __('Hero.intro') }}</p>
             </div>
         </div>
     </div>

@@ -115,26 +115,30 @@
     </section>
 
     <section
-        class="container mx-auto mt-10 bg-white border rounded-md shadow-lg border-primary shadow-gray-200 animate__animated animate__zoomInUp">
-        <div id="bariatric-surgery-program" class="-translate-y-28"></div>
-        <div class="flex flex-col items-center p-10 bg-white rounded-md lg:flex-row">
-            <div>
-                <h1 class="mb-2 text-2xl font-bold text-primary font-poppins">
-                    {{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}
-                </h1>
-                <p class="pr-0 lg:pr-5">
-                    {{ __('Section7a') }} <br><br>
-                    {{ __('Section7b') }} <br><br>
-                    {{ __('Section7c') }} <br><br>
-                    {{ __('Section7d') }} <br><br>
-                    {{ __('Section7e') }}
-                </p>
-            </div>
+        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row  rounded-br-[16rem]">
+        <article class="w-full p-6 bg-tertiary rounded-br-[16rem]">
             <div class="w-full">
-                <img src="" alt="{{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}"
-                    title="{{ __('Teleconsultas en VIDASUG: Apoyo Integral sin Fronteras') }}"
-                    class="mx-auto w-[500px]">
+                <div>
+                    <h1 class="text-2xl font-bold">{{ __('Hook.title') }}</h1>
+                    <p class="text-balance">{{ __('Hook.description') }}</p>
+                    <a href="">{{ __('Learn More') }}</a>
+                </div>
             </div>
+
+        </article>
+    </section>
+
+    <section id="sponsor" class="container mx-auto mt-10 rounded-lg splide">
+        <div class="rounded-lg splide__track">
+            <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners') }}</h2>
+            <p class="text-balance">{{ __('Partners.title') }}</p>
+            <ul class="grid grid-cols-2 rounded-lg splide__list lg:grid-cols-6">
+                <li
+                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.6') }}</h3>
+                    <p>{{ __('Licences.6p') }}</p>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -142,11 +146,11 @@
         class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
         <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
             <div class="lg:w-[500px] w-full mt-8 md:mr-10">
-                <img src="" alt="Vidasug" title="Vidasug" class="w-full mx-auto">
+                <img src="" alt="CBR Groups" title="CBR Groups" class="w-full mx-auto">
             </div>
             <div class="w-full">
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
-                    {{ __('Educación en VIDASUG: Formación Continua y Especializada para Profesionales de la Salud') }}
+                    {{ __('Educación en CBR Groups: Formación Continua y Especializada para Profesionales de la Salud') }}
                 </h1>
                 <p>{{ __('Section8a') }}</p>
 
@@ -198,7 +202,7 @@
         <div id="nutrition-and-health" class="-translate-y-28"></div>
         <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
             <div class="w-full">
-                <img src="" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
+                <img src="" alt="CBR Groups" title="CBR Groups" class="mx-auto w-[500px]">
             </div>
             <div>
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">{{ __('Nutrición y Salud') }}</h1>
@@ -221,7 +225,7 @@
         class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
         <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
             <div class="w-full">
-                <img src="" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
+                <img src="" alt="CBR Groups" title="CBR Groups" class="mx-auto w-[500px]">
             </div>
             <div>
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
@@ -350,105 +354,8 @@
                 </div>
             </div>
             <div class="w-full mt-6">
-                <img src="" alt="VIDASUG" title="VIDASUG">
+                <img src="" alt="CBR Group" title="CBR Group">
             </div>
-        </div>
-    </section>
-
-    <section id="sponsor" class="container mx-auto mt-10 rounded-lg splide">
-        <div class="rounded-lg splide__track">
-            <ul class="grid grid-cols-2 rounded-lg splide__list lg:grid-cols-6">
-                <li class="items-center px-2 splide__slide h-fit">
-                    <a href="https://www.mountsinai.org/" target="_blank"
-                        class="z-30 m-2 transition-all hover:-translate-y-1">
-                        <div
-                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="" alt="Mount Sinai" class="h-[100px] w-fit mx-auto">
-                            <div class="p-2">
-                                <h2 class="font-semibold text-gray-500 text-md">Mount Sinai</h2>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="items-center px-2 splide__slide h-fit">
-                    <a href="https://www.mhs.net/" target="_blank"
-                        class="z-30 m-2 transition-all hover:-translate-y-1">
-                        <div
-                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="" alt="Memorial Hospital" class="h-[100px] w-fit mx-auto">
-                            <div class="p-2">
-                                <h2 class="font-semibold text-gray-500 text-md">Memorial Hospital</h2>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="items-center px-2 splide__slide h-fit">
-                    <a href="https://jeffersonhealthcare.org/" target="_blank"
-                        class="z-30 m-2 transition-all hover:-translate-y-1">
-                        <div
-                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="" alt="Jefferson Healthcare" class="h-[100px] w-fit mx-auto">
-                            <div class="p-2">
-                                <h2 class="font-semibold text-gray-500 text-md">Jefferson Healthcare</h2>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="items-center px-2 splide__slide h-fit">
-                    <a href="https://www.phs.org/" target="_blank"
-                        class="z-30 m-2 transition-all hover:-translate-y-1">
-                        <div
-                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="" alt="Presbyterian" class="h-[100px] w-fit mx-auto">
-                            <div class="p-2">
-                                <h2 class="font-semibold text-gray-500 text-md">Presbyterian</h2>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="items-center px-2 splide__slide h-fit">
-                    <a href="https://www.hopkinsmedicine.org/" target="_blank"
-                        class="z-30 m-2 transition-all hover:-translate-y-1">
-                        <div
-                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="" alt="John Hopkins" class="h-[100px] w-fit mx-auto">
-                            <div class="p-2">
-                                <h2 class="font-semibold text-gray-500 text-md">John Hopkins</h2>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="items-center px-2 splide__slide h-fit">
-                    <a href="https://www.uclahealth.org/" target="_blank"
-                        class="z-30 m-2 transition-all hover:-translate-y-1">
-                        <div
-                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="" alt="UCLA Medical Center" class="h-[100px] w-fit mx-auto">
-                            <div class="p-2">
-                                <h2 class="font-semibold text-gray-500 text-md">UCLA Medical Center</h2>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="items-center px-2 splide__slide h-fit">
-                    <a href="https://www.clinicasierravista.org/" target="_blank"
-                        class="z-30 m-2 transition-all hover:-translate-y-1">
-                        <div
-                            class="items-center w-full h-full px-5 py-6 text-center border rounded-lg shadow-md border-primary bg-slate-700">
-                            <img src="" alt="Clinica Sierra Vista" class="h-[100px] w-fit mx-auto">
-                            <div class="p-2">
-                                <h2 class="font-semibold text-gray-500 text-md">Clinica Sierra Vista</h2>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
         </div>
     </section>
 
@@ -457,7 +364,7 @@
         <div id="contact-us" class="-translate-y-28"></div>
         <div class="flex flex-col-reverse items-center p-4 rounded-md lg:p-10 xl:flex-row">
             <div class="w-full xl:w-1/3">
-                <img src="" alt="Vidasug" title="Vidasug" class="mx-auto w-[500px]">
+                <img src="" alt="CBR Group" title="CBR Group" class="mx-auto w-[500px]">
             </div>
 
             <div class="p-4 transition-all ease-in-out lg:p-10">
@@ -543,7 +450,8 @@
                         </div>
                         <ul class="ml-6 list-disc">
                             <li>
-                                <a class="hover:text-primary" href="mailto:sales@vidasug.com">sales@vidasug.com</a>
+                                <a class="hover:text-primary" href="mailto:sales@CBR Group.com">sales@CBR
+                                    Group.com</a>
                             </li>
                         </ul>
                     </div>

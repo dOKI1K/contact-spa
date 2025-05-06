@@ -9,11 +9,11 @@
     <meta name="robots" content="index,follow">
     <meta name="description" content="{{ __('Section1a') }}">
     <meta name="keywords"
-        content="VIDASUG, vidasug, bariatric, cirugia, surgery, bypass, vidasug, gastrico, eeuu, usa, quirurgica, nutricion, salud, argentina, operacion, suplementos, bienestar, estomago, bariatrica, obesidad, obesity">
+        content="CBR Group, CBR Group, bariatric, cirugia, surgery, bypass, CBR Group, gastrico, eeuu, usa, quirurgica, nutricion, salud, argentina, operacion, suplementos, bienestar, estomago, bariatrica, obesidad, obesity">
 
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
     <link rel="icon" href="{{ env('APP_URL') . '/favicon.ico' }}" type="image/x-icon">
-    <meta property="og:image" itemprop="image" content="@yield('icon', 'https://vidasug.com/favicon.ico')" />
+    <meta property="og:image" itemprop="image" content="@yield('icon', 'https://CBR Group.com/favicon.ico')" />
 
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
