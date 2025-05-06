@@ -115,7 +115,7 @@
     </section>
 
     <section
-        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row  rounded-br-[16rem]">
+        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row rounded-br-[16rem]">
         <article class="w-full p-6 bg-tertiary rounded-br-[16rem]">
             <div class="w-full">
                 <div>
@@ -128,233 +128,88 @@
         </article>
     </section>
 
-    <section id="sponsor" class="container mx-auto mt-10 rounded-lg splide">
+    <section id="sponsor" class="container flex flex-col mx-auto mt-10 rounded-lg splide md:flex-row">
+        <div class="lg:w-[500px] w-full mt-8 md:mr-10">
+            <img src="/img/4-fourth.jpg" alt="CBR Groups" title="CBR Groups" class="w-full mx-auto">
+        </div>
+
         <div class="rounded-lg splide__track">
-            <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners') }}</h2>
+            <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners') }} 🤝</h2>
             <p class="text-balance">{{ __('Partners.title') }}</p>
             <ul class="grid grid-cols-2 rounded-lg splide__list lg:grid-cols-6">
                 <li
                     class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Licences.6') }}</h3>
-                    <p>{{ __('Licences.6p') }}</p>
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.1') }}</h3>
+                    <p>{{ __('Partners.1p') }}</p>
+                </li>
+                <li
+                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.2') }}</h3>
+                    <p>{{ __('Partners.2p') }}</p>
+                </li>
+                <li
+                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.3') }}</h3>
+                    <p>{{ __('Partners.3p') }}</p>
+                </li>
+                <li
+                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.4') }}</h3>
+                    <p>{{ __('Partners.4p') }}</p>
+                </li>
+                <li
+                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.5') }}</h3>
+                    <p>{{ __('Partners.5p') }}</p>
+                </li>
+                <li
+                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.6') }}</h3>
+                    <p>{{ __('Partners.6p') }}</p>
+                </li>
+                <li
+                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.7') }}</h3>
+                    <p>{{ __('Partners.7p') }}</p>
                 </li>
             </ul>
+
+            <p class="text-balance">{{ __('Partners.footer') }}</p>
         </div>
     </section>
 
     <section
         class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
         <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
-            <div class="lg:w-[500px] w-full mt-8 md:mr-10">
-                <img src="" alt="CBR Groups" title="CBR Groups" class="w-full mx-auto">
+            <div class="w-full mt-8 md:mr-10">
+                <img src="/img/5-fifth.jpg" alt="CBR Groups" title="CBR Groups" class="w-full mx-auto">
             </div>
             <div class="w-full">
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
-                    {{ __('Educación en CBR Groups: Formación Continua y Especializada para Profesionales de la Salud') }}
+                    {{ __('Real Estate') }}
                 </h1>
-                <p>{{ __('Section8a') }}</p>
+                <p>{{ __('RealEstate.p') }}</p>
 
-                <div class="grid grid-cols-1 gap-4 mt-5 md:grid-cols-2 lg:grid-cols-3">
+                <h3>{{ __('Services.title') }}</h3>
+
+                <div class="flex flex-col">
                     <div
                         class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot1Title') }}</h3>
-                        <p>{{ __('Section8dot1') }}</p>
+                        <p>{{ __('Services.1') }}</p>
                     </div>
                     <div
                         class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot2Title') }}</h3>
-                        <p>{{ __('Section8dot2') }}</p>
+                        <p>{{ __('Services.2') }}</p>
                     </div>
                     <div
                         class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot3Title') }}</h3>
-                        <p>{{ __('Section8dot3') }}</p>
+                        <p>{{ __('Services.3') }}</p>
                     </div>
                     <div
                         class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot4Title') }}</h3>
-                        <p>{{ __('Section8dot4') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot5Title') }}</h3>
-                        <p>{{ __('Section8dot5') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8dot6Title') }}</h3>
-                        <p>{{ __('Section8dot6') }}</p>
+                        <p>{{ __('Services.4') }}</p>
                     </div>
                 </div>
-
-                <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8bTitle') }}</h2>
-                <p>{{ __('Section8b') }}</p>
-
-                <h2 class="py-4 font-semibold text-primary font-poppins">{{ __('Section8cTitle') }}</h2>
-                <p>{{ __('Section8c') }}</p> <br>
-                <p>{{ __('Section8d') }}</p>
-            </div>
-        </div>
-    </section>
-
-    <section
-        class="container mx-auto mt-10 bg-white rounded-md shadow-lg shadow-gray-200 wow animate__animated animate__fadeInLeft">
-        <div id="nutrition-and-health" class="-translate-y-28"></div>
-        <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
-            <div class="w-full">
-                <img src="" alt="CBR Groups" title="CBR Groups" class="mx-auto w-[500px]">
-            </div>
-            <div>
-                <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">{{ __('Nutrición y Salud') }}</h1>
-
-                <h2 class="mb-2 text-lg font-semibold text-primary font-poppins">
-                    {{ __('Etapas de la nutrición para pacientes bariátricos') }}</h2>
-                <p>{{ __('Section4a') }}</p>
-                <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section4bTitle') }}</h3>
-                <p>{{ __('Section4b') }}</p>
-                <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section4cTitle') }}</h3>
-                <p>{{ __('Section4c') }}</p>
-                <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section4dTitle') }}</h3>
-                <p>{{ __('Section4d') }}</p> <br>
-                <p>{{ __('Section4e') }}</p>
-            </div>
-        </div>
-    </section>
-
-    <section
-        class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
-        <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
-            <div class="w-full">
-                <img src="" alt="CBR Groups" title="CBR Groups" class="mx-auto w-[500px]">
-            </div>
-            <div>
-                <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
-                    {{ __('Suplementos recomendados') }}</h1>
-                <p>{{ __('Section5a') }}</p>
-
-                <div class="grid grid-cols-1 gap-4 mt-5 md:grid-cols-2 lg:grid-cols-3">
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section5bTitle') }}</h3>
-                        <p>{{ __('Section5b') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section5cTitle') }}</h3>
-                        <p>{{ __('Section5c') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section5dTitle') }}</h3>
-                        <p>{{ __('Section5d') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section5eTitle') }}</h3>
-                        <p>{{ __('Section5e') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section5fTitle') }}</h3>
-                        <p>{{ __('Section5f') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section5gTitle') }}</h3>
-                        <p>{{ __('Section5g') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section5hTitle') }}</h3>
-                        <p>{{ __('Section5h') }}</p>
-                    </div>
-                </div>
-
-                <p class="mt-5">{{ __('Section5i') }}</p>
-            </div>
-        </div>
-    </section>
-
-    <section
-        class="container mx-auto mt-10 bg-white border rounded-md shadow-lg border-primary wow animate__animated animate__fadeInLeft">
-        <div class="flex flex-col p-10 bg-white rounded-md lg:flex-row">
-            <div>
-                <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
-                    {{ __('Volver a Hacer Ejercicio: Recupera Tu Bienestar') }}</h1>
-                <p>{{ __('Section6a') }}</p>
-                <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6bTitle') }}</h3>
-                <p>{{ __('Section6b') }}</p>
-                <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6cTitle') }}</h3>
-                <p>{{ __('Section6c') }}</p>
-
-                <h2 class="mt-10 text-xl font-semibold text-primary font-poppins">
-                    {{ __('Recomendaciones Iniciales') }}
-                </h2>
-
-                <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6dTitle') }}</h3>
-                        <p>{{ __('Section6d') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6eTitle') }}</h3>
-                        <p>{{ __('Section6e') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6fTitle') }}</h3>
-                        <p>{{ __('Section6f') }}</p>
-                    </div>
-                </div>
-
-                <h2 class="mt-10 text-xl font-semibold text-primary font-poppins">
-                    {{ __('Precauciones') }}
-                </h2>
-
-                <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6gTitle') }}</h3>
-                        <p>{{ __('Section6g') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6hTitle') }}</h3>
-                        <p>{{ __('Section6h') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6iTitle') }}</h3>
-                        <p>{{ __('Section6i') }}</p>
-                    </div>
-                </div>
-
-                <h2 class="mt-10 text-xl font-semibold text-primary font-poppins">
-                    {{ __('Consejos para Mantener la Motivación') }}
-                </h2>
-
-                <div class="grid grid-cols-1 gap-4 transition-shadow ease-in-out lg:grid-cols-3">
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6jTitle') }}</h3>
-                        <p>{{ __('Section6j') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6kTitle') }}</h3>
-                        <p>{{ __('Section6k') }}</p>
-                    </div>
-                    <div
-                        class="p-5 transition-all ease-in-out shadow-lg shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
-                        <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Section6lTitle') }}</h3>
-                        <p>{{ __('Section6l') }}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full mt-6">
-                <img src="" alt="CBR Group" title="CBR Group">
             </div>
         </div>
     </section>
@@ -368,7 +223,7 @@
             </div>
 
             <div class="p-4 transition-all ease-in-out lg:p-10">
-                <h1 class="mb-6 text-2xl font-bold font-poppins">{{ __('Contactanos') }}</h1>
+                <h1 class="mb-6 text-2xl font-bold font-poppins">{{ __('ContactForm.title') }}</h1>
 
                 <div class="flex flex-col md:flex-row">
                     <div class="w-full p-5 border-b border-white md:border-b-0 md:border-r">
