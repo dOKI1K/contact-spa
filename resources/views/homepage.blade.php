@@ -275,7 +275,7 @@
                 </div>
             </div>
 
-            <form action="" method="post"
+            <form action="{{ route('email.send') }}" method="post"
                 class="w-full p-4 text-white lg:p-10 md:w-1/2 bg-secondary md:rounded-br-[6rem]">
                 @csrf
                 <div class="flex flex-col w-full p-4 lg:p-10">

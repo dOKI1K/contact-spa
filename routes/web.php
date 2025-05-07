@@ -13,3 +13,10 @@ Route::get('lang/{lang}', [LanguageController::class, 'switchLang'])->name('lang
 
 Route::get('locale/{lang}', [LanguageController::class, 'setLocale'])->name('locale.set');
 
+Route::post('email', function () {
+    $data = request()->validate([
+        'email' => 'required|email',
+    ]);
+
+    return response()->json(['message' => 'Email sent successfully!']);
+})->name('email.send');
