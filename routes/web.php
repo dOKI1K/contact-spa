@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use PSpell\Config;
 
@@ -15,8 +16,12 @@ Route::get('locale/{lang}', [LanguageController::class, 'setLocale'])->name('loc
 
 Route::post('email', function () {
     $data = request()->validate([
+        'name' => 'required|string|max:255',
         'email' => 'required|email',
+        'message' => 'required|string|max:400',
     ]);
+
+    Mail::to(env('MAIL_USERNAME'))->send(new \App\Mail\Email($data));
 
     return response()->json(['message' => 'Email sent successfully!']);
 })->name('email.send');
