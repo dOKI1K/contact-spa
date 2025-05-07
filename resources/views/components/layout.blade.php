@@ -25,7 +25,7 @@
     <title>CBR Group | Real State & Medice</title>
 </head>
 
-<body class="scroll-smooth bg-light font-jost">
+<body class="overflow-x-hidden scroll-smooth bg-light font-jost">
     <x-header></x-header>
     <main>
         {{ $slot }}

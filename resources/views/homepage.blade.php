@@ -47,6 +47,10 @@
                 <p class="text-white text-balance">
                     {{ __('WhoWeAre.p') }}
                 </p>
+                <h2 class="pt-2 text-white">{{ __('Values') }}</h2>
+                <p class="text-white">{{ __('values.1') }} - {{ __('values.2') }} - {{ __('values.3') }} -
+                    {{ __('values.4') }}
+                </p>
 
                 <article class="flex flex-col justify-between h-full gap-6 py-6 rounded-md lg:flex-row">
                     <div class="w-full p-4 bg-white rounded-md shadow-md">
@@ -60,21 +64,6 @@
                 </article>
             </div>
         </div>
-    </section>
-
-    <section
-        class="container flex flex-col mx-auto mt-10 bg-white rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft wow md:flex-row">
-
-        <div class="w-full p-4 rounded-md shadow-md">
-            <h3 class="text-lg font-semibold">{{ __('Values') }}</h3>
-            <ul class="ml-4 list-disc tetx-balance">
-                <li>{{ __('values.1') }}</li>
-                <li>{{ __('values.2') }}</li>
-                <li>{{ __('values.3') }}</li>
-                <li>{{ __('values.4') }}</li>
-            </ul>
-        </div>
-
     </section>
 
     <section
@@ -132,7 +121,7 @@
     </section>
 
     <section
-        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 animate__animated animate__fadeInLeft md:flex-row rounded-br-[16rem]">
+        class="container flex flex-col mx-auto mt-10 rounded-md shadow-lg shadow-gray-200 wow animate__animated animate__fadeInLeft md:flex-row rounded-br-[16rem]">
         <article class="w-full p-6 bg-tertiary rounded-br-[16rem]">
             <div class="w-full">
                 <div>
@@ -146,67 +135,70 @@
         </article>
     </section>
 
-    <section id="sponsor" class="container flex flex-col mx-auto mt-10 rounded-lg splide">
-        <article class="flex flex-col items-center justify-center bg-white rounded-lg lg:flex-row">
-            <div class="md:w-[60%] w-full">
+    <section id="sponsor"
+        class="container flex flex-col mx-auto mt-10 rounded-lg splide wow animate__animated animate__fadeInRight md:rounded-tr-[16rem]">
+        <article class="flex flex-col items-center justify-center bg-white md:rounded-tr-[16rem] lg:flex-row">
+            <div class="md:w-[30%] w-full">
                 <img src="/img/4-fourth.jpg" alt="CBR Groups" title="CBR Groups" class="w-full">
             </div>
-            <div class="md:w-[40%] w-full">
-                <h2 class="py-4 text-2xl font-semibold text-primary font-poppins">{{ __('Partners') }} 🤝</h2>
+            <div class="md:w-[70%] w-full p-7  md:rounded-tr-[16rem]">
+                <h2 class="py-4 text-4xl font-semibold text-primary font-poppins">{{ __('Partners') }} 🤝</h2>
                 <p class="text-balance">{{ __('Partners.title') }}</p>
             </div>
         </article>
 
-        <div class="rounded-lg splide__track">
-            <ul class="grid grid-cols-2 rounded-lg splide__list lg:grid-cols-6">
+        <div class="splide__track ">
+            <ul class="grid grid-cols-2 splide__list lg:grid-cols-6 bg-light">
                 <li
-                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    class="items-center p-5 px-2 text-center transition-all ease-in-out bg-white splide__slide hover:-translate-y-2">
                     <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.1') }}</h3>
-                    <p>{{ __('Partners.1p') }}</p>
+                    <p class="px-2 text-balance">{{ __('Partners.1p') }}</p>
                 </li>
                 <li
-                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    class="items-center p-5 px-2 text-center transition-all ease-in-out bg-white splide__slide hover:-translate-y-2">
                     <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.2') }}</h3>
-                    <p>{{ __('Partners.2p') }}</p>
+                    <p class="px-2 text-balance">{{ __('Partners.2p') }}</p>
                 </li>
                 <li
-                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    class="items-center p-5 px-2 text-center transition-all ease-in-out bg-white splide__slide hover:-translate-y-2">
                     <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.3') }}</h3>
-                    <p>{{ __('Partners.3p') }}</p>
+                    <p class="px-2 text-balance">{{ __('Partners.3p') }}</p>
                 </li>
                 <li
-                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    class="items-center p-5 px-2 text-center transition-all ease-in-out bg-white splide__slide hover:-translate-y-2">
                     <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.4') }}</h3>
-                    <p>{{ __('Partners.4p') }}</p>
+                    <p class="px-2 text-balance">{{ __('Partners.4p') }}</p>
                 </li>
                 <li
-                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    class="items-center p-5 px-2 text-center transition-all ease-in-out bg-white splide__slide hover:-translate-y-2">
                     <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.5') }}</h3>
-                    <p>{{ __('Partners.5p') }}</p>
+                    <p class="px-2 text-balance">{{ __('Partners.5p') }}</p>
                 </li>
                 <li
-                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    class="items-center p-5 px-2 text-center transition-all ease-in-out bg-white splide__slide hover:-translate-y-2">
                     <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.6') }}</h3>
-                    <p>{{ __('Partners.6p') }}</p>
+                    <p class="px-2 text-balance">{{ __('Partners.6p') }}</p>
                 </li>
                 <li
-                    class="items-center p-5 px-2 transition-all ease-in-out shadow-lg splide__slide h-fit shadow-gray-200 hover:shadow-gray-300 hover:-translate-y-2">
+                    class="items-center p-5 px-2 text-center transition-all ease-in-out bg-white splide__slide hover:-translate-y-2">
                     <h3 class="py-4 font-semibold text-primary font-poppins">{{ __('Partners.7') }}</h3>
-                    <p>{{ __('Partners.7p') }}</p>
+                    <p class="px-2 text-balance">{{ __('Partners.7p') }}</p>
                 </li>
             </ul>
 
-            <p class="text-balance">{{ __('Partners.footer') }}</p>
+            <div class="w-full p-5 mt-5 text-center bg-white rounded-lg rounded-bl-[16rem]">
+                <p class="text-balance">{{ __('Partners.footer') }}</p>
+            </div>
         </div>
     </section>
 
     <section
         class="container mx-auto mt-10 bg-white border rounded-md wow animate__animated animate__fadeInLeft border-primary">
-        <div class="flex flex-col-reverse items-center p-10 bg-white rounded-md xl:flex-row">
-            <div class="w-full mt-8 md:mr-10">
+        <div class="flex flex-col-reverse items-center bg-white rounded-md xl:flex-row">
+            <div class="w-full">
                 <img src="/img/5-fifth.jpg" alt="CBR Groups" title="CBR Groups" class="w-full mx-auto">
             </div>
-            <div class="w-full">
+            <div class="w-full p-10">
                 <h1 class="mb-2 text-2xl font-semibold text-primary font-poppins">
                     {{ __('Real Estate') }}
                 </h1>
@@ -237,48 +229,72 @@
     </section>
 
     <section
-        class="container pt-6 mx-auto mt-10 text-white shadow-lg bg-slate-700 wow animate__animated animate__fadeInLefts">
+        class="container pt-6 mx-auto mt-10 shadow-lg wow animate__animated animate__fadeInLefts md:rounded-br-[6rem]">
         <div id="contact-us" class="-translate-y-28"></div>
-        <div class="flex flex-col-reverse items-center rounded-md xl:flex-row">
-            <div class="w-full xl:w-1/3">
-                <img src="/img/6-sixth.jpg" alt="CBR Group" title="CBR Group" class="mx-auto w-[500px]">
-            </div>
+        <div class="flex flex-col-reverse rounded-md xl:flex-row md:rounded-br-[6rem]">
+            <div class="w-full transition-all ease-in-out md:w-1/2">
+                <div class="w-full p-10">
+                    <h1 class="mb-6 text-2xl font-bold font-poppins text-primary">{{ __('ContactForm.title') }}</h1>
 
-            <div class="p-4 transition-all ease-in-out lg:p-10">
-                <h1 class="mb-6 text-2xl font-bold font-poppins">{{ __('ContactForm.title') }}</h1>
+                    <div class="flex flex-col md:flex-row">
+                        <div class="w-full border-b border-white md:border-b-0">
+                            <div class="flex flex-row gap-2 py-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                </svg>
+                                <a class="hover:text-primary" target="_blank"
+                                    href="https://www.google.com/maps/place/310+Racquet+Club+Rd+APT+101,+Weston,+FL+33326,+EE.+UU./@26.1259751,-80.3839895,14z/data=!4m6!3m5!1s0x88d90a3c43eafc83:0x2a89b2d2b95525a8!8m2!3d26.1249974!4d-80.3807601!16s%2Fg%2F11f4lhxqqd?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
+                                    310 Racquet Club, APT 101, Weston, FL, 33326-1119
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="flex flex-col md:flex-row">
-                    <div class="w-full p-5 border-b border-white md:border-b-0">
-                        <div class="flex flex-row gap-2 py-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                            </svg>
-                            <a class="hover:text-primary" target="_blank"
-                                href="https://www.google.com/maps/place/310+Racquet+Club+Rd+APT+101,+Weston,+FL+33326,+EE.+UU./@26.1259751,-80.3839895,14z/data=!4m6!3m5!1s0x88d90a3c43eafc83:0x2a89b2d2b95525a8!8m2!3d26.1249974!4d-80.3807601!16s%2Fg%2F11f4lhxqqd?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
-                                310 Racquet Club, APT 101, Weston, FL, 33326-1119
-                            </a>
+                    <div class="flex flex-col md:flex-row">
+                        <div class="w-full">
+                            <div class="flex flex-row gap-2 py-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
+                                </svg>
+
+                                <a class="hover:text-primary"
+                                    href="mailto:sales@CBR Group.com">info@cbrgroupllc.com</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row">
-                    <div class="w-full p-5">
-                        <div class="flex flex-row gap-2 py-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
-                            </svg>
-
-                            <a class="hover:text-primary" href="mailto:sales@CBR Group.com">info@cbrgroupllc.com</a>
-                        </div>
-                    </div>
+                <div class="w-full mt-6">
+                    <img src="/img/6-sixth.jpg" alt="CBR Group" title="CBR Group" class="w-full mx-auto">
                 </div>
             </div>
+
+            <form action="" method="post"
+                class="w-full p-4 text-white lg:p-10 md:w-1/2 bg-secondary md:rounded-br-[6rem]">
+                @csrf
+                <div class="flex flex-col w-full p-4 lg:p-10">
+                    {{-- <h1 class="mb-6 text-2xl font-bold font-poppins">{{ __('ContactForm.title') }}</h1> --}}
+                    <p class="pb-3 text-balance">{{ __('ContactForm.p') }}</p>
+                    <div class="flex flex-col gap-4">
+                        <input type="text" name="name" placeholder="{{ __('Name') }}"
+                            class="w-full p-3 text-black rounded-md focus:outline-none focus:ring focus:ring-primary"
+                            required>
+                        <input type="email" name="email" placeholder="{{ __('Email') }}"
+                            class="w-full p-3 text-black rounded-md focus:outline-none focus:ring focus:ring-primary"
+                            required>
+                        <textarea name="message" rows="5" placeholder="{{ __('Message') }}"
+                            class="w-full p-3 text-black rounded-md focus:outline-none focus:ring focus:ring-primary" required></textarea>
+                        <button type="submit"
+                            class="w-full px-4 py-2 text-lg font-semibold text-center text-white transition-colors ease-in-out delay-100 rounded-md bg-primary hover:bg-sky-900">{{ __('Submit') }}</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 </x-layout>
