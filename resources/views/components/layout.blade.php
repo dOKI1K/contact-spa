@@ -8,13 +8,23 @@
 
     <meta name="robots" content="index,follow">
     <meta name="description" content="{{ __('Section1a') }}">
-    <meta name="keywords"
-        content="CBR Group, CBR Group, bariatric, cirugia, surgery, bypass, CBR Group, gastrico, eeuu, usa, quirurgica, nutricion, salud, argentina, operacion, suplementos, bienestar, estomago, bariatrica, obesidad, obesity">
-
+    <meta name="generator" content="Laravel 11">
     <meta name="author" content="dOKI | Lahuen Millananco">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="keywords"
+        content="CBR Group, CBR Group LLC, Real State, Medice, CBR Group Real State & Medice, U.S.-based company, CBR Group, Innovation, eeuu, usa, Excellence, Dialysis Systems, Medical Components, argentina, operacion, Carl, Zeiss, Meditec, AG, bienestar, estomago, Medical, obesidad, obesity">
+
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
     <link rel="icon" href="{{ env('APP_URL') . '/favicon.ico' }}" type="image/x-icon">
-    <meta property="og:image" itemprop="image" content="@yield('icon', 'https://CBR Group.com/favicon.ico')" />
+
+    <meta property="og:image" itemprop="image" content="@yield('icon', 'https://cbrgroupllc.com/favicon.ico')" />
+    <meta property="og:title" content="CBR Group | Real State & Medice">
+    <meta property="og:description" content="{{ __('Section1a') }}">
+    <meta property="og:image" content="https://cbrgroupllc.com/img/logo2.png">
+    <meta property="og:url" content="https://cbrgroupllc.com/">
+    <meta property="og:type" content="website">
+
+
 
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
