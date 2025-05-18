@@ -12,7 +12,7 @@
     <meta name="author" content="dOKI | Lahuen Millananco">
     <meta name="theme-color" content="#0f172a">
     <meta name="keywords"
-        content="CBR Group, CBR Group LLC, Real State, Medice, CBR Group Real State & Medice, U.S.-based company, CBR Group, Innovation, eeuu, usa, Excellence, Dialysis Systems, Medical Components, argentina, operacion, Carl, Zeiss, Meditec, AG, bienestar, estomago, Medical, obesidad, obesity">
+        content="CBR Group, CBR Group LLC, Group LLC, LLC Group, llc,  Real State, Medice, CBR Group Real State & Medice, U.S.-based company, CBR Group, Innovation, eeuu, usa, Excellence, Dialysis Systems, Medical Components, argentina, operacion, Carl, Zeiss, Meditec, AG, bienestar, estomago, Medical, obesidad, obesity">
 
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
     <link rel="icon" href="{{ env('APP_URL') . '/favicon.ico' }}" type="image/x-icon">
